@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        document.write("-- task1 -->");
+        document.write("<br/>");
+        let dateOfBirth = 1979;
+        document.write(`მე დავიბადე ${dateOfBirth} წელს`);
+        document.write("<br/>");
+        document.write("<br/>");
+
+        document.write("-- task2 --");
+        document.write("<br/>");
+
+        let myNoun = "ძაღლი";
+        let myAdjective = "დიდი";
+        let myVerb = "გაიქცა";
+        let myAdverb = "სწრაფად";
+
+        document.write(`${myAdjective} ${myNoun} ${myAdverb} ${myVerb}`);
+        document.write("<br/>");
+        document.write("<br/>");
+
+        console.log("-- task3 --");
+        let color = "red";
+
+        if (color == 'red')
+            console.log(`${color} არის ჩემი საყვარელი ფერი`);
+        else
+            console.log(`${color} არ მომწონს`);
+
+        console.log('-- task4 --');
+        let number = 12;
+        if (number % 2 == 0)
+            console.log(`არჩეული რიცხვი: ${number} არის ლუწი`);
+
+        else
+            console.log(`არჩეული რიცხვი: ${number} არის კენტი`);
+
+
+        document.write('-- task5 --');
+        let age = prompt('შემოიყვანეთ თქვენი ასაკი: ');
+        let result = age < 18 ? 'თქვენ არ ხართ სრულწლოვანი' : 'თქვენ ხართ სრულწლოვანი';
+        document.write('<br/>');
+        document.write(result);
+
+    </script>
+</body>
+
+</html>
